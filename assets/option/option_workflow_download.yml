@@ -1,7 +1,8 @@
 # GitHub Actions 下载脚本配置
 dir_rule:
   base_dir: ${JM_DOWNLOAD_DIR}
-  rule: Bd_Aauthor_Atitle_Pindex
+  rule: Bd_Aid_Atitle #根目录/车牌号/本子名
+  #rule: Bd_Aauthor_Atitle_Pindex #默认：根目录/画师名/本子名/章节号(通常为1)
 
 client:
   impl: api # 使用api可免登录下载本子
